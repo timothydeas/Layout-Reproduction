@@ -1,3 +1,3 @@
-# timplate (aka template repo)
+# Layout Reproduction
 
-basic html, css and javascript template
+Reproducing https://news.ycombinator.com/ into semantic HTML vs table format
