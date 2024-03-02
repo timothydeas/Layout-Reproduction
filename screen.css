@@ -1,10 +1,12 @@
 body {
-    margin: auto;
-    width: 90%;
+    margin: 0 auto;
+    width: 83.5%;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 nav {
     background-color: #ff6600;
+    margin: 0 auto;
 }
 
 img {
@@ -16,15 +18,27 @@ img {
 
 .nav-list {
     display: flex;
+    align-items: center;
     list-style: none;
+    font-size: 10pt;
+    padding: 2px 5px 2px 0px;
+    margin: 6px 0 0 0;
 }
 
 .list {
-    flex: auto;
-    /* padding-left: 12px;
-    padding-right: 12px; */
+    padding: 0px 2.5px 0px 2.5px;
 }
 
+#bold {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+/* #left {
+    text-align: left;
+} */
+
 #right {
+    flex: auto;
     text-align: right;
 }
