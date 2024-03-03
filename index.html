@@ -11,49 +11,52 @@
     <nav>
       <ul class="nav-list">
         <li class="list"><img src="y18.svg" alt="Y Combinator Logo"></li>
-        <li class="list" id="bold">Hacker News</li>
-        <li class="list" >new</li>
+        <li class="list" id="bold"><a class="hStyle" href="https://cute-toffee-96b8e8.netlify.app/">Hacker News</a></li>
+        <li class="list" ><a class="hStyle" href="https://news.ycombinator.com/newest">new</a></li>
         <li class="list">|</li>
-        <li class="list">past</li>
+        <li class="list"><a class="hStyle" href="https://news.ycombinator.com/front">past</a></li>
         <li class="list">|</li>
-        <li class="list">comments</li>
+        <li class="list"><a class="hStyle" href="https://news.ycombinator.com/newcomments">comments</a></li>
         <li class="list">|</li>
-        <li class="list">ask</li>
+        <li class="list"><a class="hStyle" href="https://news.ycombinator.com/ask">ask</a></li>
         <li class="list">|</li>
-        <li class="list">show</li>
+        <li class="list"><a class="hStyle" href="https://news.ycombinator.com/show">show</a></li>
         <li class="list">|</li>
-        <li class="list">jobs</li>
+        <li class="list"><a class="hStyle" href="https://news.ycombinator.com/jobs">jobs</a></li>
         <li class="list">|</li>
-        <li class="list">submit</li>
-        <li class="list" id="right">login</li>
+        <li class="list"><a class="hStyle" href="https://news.ycombinator.com/submit">submit</a></li>
+        <li class="list" id="right"><a class="hStyle" href="https://news.ycombinator.com/login">login</a></li>
       </ul>
     </nav>
     <main class="items">
-      <section>
+      <section id="hide">
         <ul class="nav-list">
-          <li class="list" >1.</li>
+          <li class="list" id="rank">1.</li>
           <li class="list"><img id="vote" src="vote.png" alt="upvote"></li>
-          <li class="list">Wintergatan Marble Machine (2016)</li>
-          <li class="list" >link</li>
+          <li class="list"><a href="https://www.youtube.com/watch?v=IvUU8joBb1Q" style="text-decoration:none">Wintergatan Marble Machine (2016)</a></li>
+          <li class="list"><a class="link" href="https://www.youtube.com/watch?v=IvUU8joBb1Q">(youtube.com)</a></li>
         </ul>
         <ul class="small-ul">
-          <li class="small-list" >blah</li>
-          <li class="small-list">blah</li>
-          <li class="small-list">blah</li>
-          <li class="small-list" >blah</li>
+          <li class="small-list">187 points by</li>
+          <li class="small-list"><a class="link" href="https://news.ycombinator.com/user?id=kaycebasques">kaycebasques</a></li>
+          <li class="small-list"><a class="link" href="https://news.ycombinator.com/item?id=39573093">5 hour ago</a></li>
+          <li class="small-list"><a class="link" href="#hide" onclick="hide.style.visibility='hidden';">| hide |</a></li>
+          <!-- above is an example alternative 'hide' vs javascript (see utilities.js)      -->
+          <li class="small-list"><a class="link" href="https://news.ycombinator.com/item?id=39573093">61 comments</a></li>
         </ul>
       </section>
       <section>
         <ul class="nav-list">
           <li class="list" >2.</li>
           <li class="list"><img id="vote" src="vote.png" alt="upvote"></li>
-          <li class="list">Learning Theory from First Principles [pdf]</li>
+          <li class="list"><a href="https://www.di.ens.fr/%7Efbach/ltfp_book.pdf" style="text-decoration:none">Learning Theory from First Principles [pdf]</a></li>
           <li class="list" >link</li>
         </ul>
         <ul class="small-ul">
           <li class="small-list" >blah</li>
           <li class="small-list">blah</li>
           <li class="small-list">blah</li>
+          <li class="small-list" >blah</li>
           <li class="small-list" >blah</li>
         </ul>
       </section>
@@ -61,13 +64,29 @@
         <ul class="nav-list">
           <li class="list" >3.</li>
           <li class="list"><img id="vote" src="vote.png" alt="upvote"></li>
-          <li class="list">Mathematicians prove Pólya's conjecture for the eigenvalues of a disk</li>
+          <li class="list"><a href="https://phys.org/news/2024-03-mathematicians-plya-conjecture-eigenvalues-disk.html" style="text-decoration:none">Mathematicians prove Pólya's conjecture for the eigenvalues of a disk</a></li>
           <li class="list" >link</li>
         </ul>
         <ul class="small-ul">
           <li class="small-list" >blah</li>
           <li class="small-list">blah</li>
           <li class="small-list">blah</li>
+          <li class="small-list" >blah</li>
+          <li class="small-list" >blah</li>
+        </ul>
+      </section>
+      <section>
+        <ul class="nav-list">
+          <li class="list" >4.</li>
+          <li class="list"><img id="vote" src="vote.png" alt="upvote"></li>
+          <li class="list"><a href="https://sdomi.pl/weblog/15-witchcraft-minecraft-server-in-bash/" style="text-decoration:none">Writing a Minecraft server from scratch in Bash (2022)</a></li>
+          <li class="list" >link</li>
+        </ul>
+        <ul class="small-ul">
+          <li class="small-list" >blah</li>
+          <li class="small-list">blah</li>
+          <li class="small-list">blah</li>
+          <li class="small-list" >blah</li>
           <li class="small-list" >blah</li>
         </ul>
       </section>
