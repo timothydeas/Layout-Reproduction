@@ -33,9 +33,9 @@ img {
     padding: 0px 2.5px 0px 2.5px;
 }
 
-/* #h-style {
-
-} */
+#smallLink {
+    font-size: 8pt;
+}
 
 #bold {
     font-weight: bold;
